@@ -1,0 +1,1790 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Voiz</title>
+    <link rel="icon" href="images/logo.png" type="image/png" sizes="16x16" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="css/weather-icons.min.css" />
+    <link rel="stylesheet" href="css/toast-notification.css" />
+    <link rel="stylesheet" href="css/page-tour.css" />
+    <link rel="stylesheet" href="css/stories-zuck.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/color.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+
+  <body>
+    <div class="theme-layout">
+      <!-- <div class="postoverlay"></div> -->
+
+      <div class="responsive-header">
+        <div class="mh-head first Sticky">
+          <span class="mh-btns-left">
+            <a class="" href="#menu" style="color: #000"
+              ><i class="fa fa-align-justify"></i
+            ></a>
+          </span>
+          <span class="mh-text">
+            <a href="index.html" title=""
+              ><img
+                src="images/logo.png"
+                alt="logo"
+                style="width: 40px; height: 40px"
+            /></a>
+          </span>
+          <span class="mh-btns-right" style="display: flex">
+            <ul class="setting-area float-left" style="list-style: none">
+              <li>
+                <a
+                  href="notifications.html"
+                  title="Notification"
+                  data-ripple=""
+                >
+                  <img
+                    src="images/icons/notification.svg"
+                    alt="img"
+                    style="width: 20px"
+                  /><em
+                    class="bg-purple"
+                    style="
+                      position: absolute;
+                      top: -11px;
+                      right: 5px;
+                      width: 16px;
+                      height: 16px;
+                      font-size: 10px;
+                      border-radius: 50%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                    "
+                    >7</em
+                  >
+                </a>
+              </li>
+            </ul>
+          </span>
+        </div>
+
+        <div class="mh-head second">
+          <form class="mh-form">
+            <input type="search" placeholder="search" style="height: 40px" />
+          </form>
+        </div>
+
+        <nav id="menu" class="res-menu">
+          <ul>
+            <li>
+              <a href="index.html" title="">
+                <span>Home </span>
+              </a>
+            </li>
+            <li>
+              <a href="about-us.html" title="">
+                <span>About Us </span>
+              </a>
+            </li>
+
+            <li>
+              <span>Add Post</span>
+              <ul>
+                <li><a href="about-us.html" title="">Social Post</a></li>
+                <li>
+                  <a href="add-post.html" title="">Road Accident</a>
+                </li>
+                <li>
+                  <a href="blood-donation.html" title="">Blood Donation</a>
+                </li>
+
+                <li>
+                  <a href="organ-donation.html" title="">Organ Donation</a>
+                </li>
+                <li>
+                  <a href="medical-fundraising.html" title=""
+                    >Medical Fundraising</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span>Services</span>
+              <ul>
+                <li><a href="social-issues.html" title="">Social Issues</a></li>
+                <li>
+                  <a href="medical-issues.html" title="">Medical Issues</a>
+                </li>
+                <li>
+                  <a href="daily-news.html" title="">Daily News</a>
+                </li>
+
+                <li><a href="public-poll.html" title="">Public Poll</a></li>
+                <li>
+                  <a href="voters-summary.html" title="">Voters Summary</a>
+                </li>
+                <li><a href="opinion-poll.html" title="">Opinion Poll</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>Timeline</span>
+              <ul>
+                <li>
+                  <a href="timeline-photos.html" title="">Timeline Photos</a>
+                </li>
+                <li>
+                  <a href="timeline-videos.html" title="">Timeline Videos</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span>Favourit Page</span>
+              <ul>
+                <li>
+                  <a href="event-calendar.html" title="">Event Calendar</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <span>Featured</span>
+              <ul>
+                <li>
+                  <a href="chat-messenger.html" title="">Messenger </a>
+                </li>
+                <li><a href="notifications.html" title="">Notifications</a></li>
+
+                <li><a href="faq.html" title="">Faq's</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>Account Setting</span>
+              <ul>
+                <li><a href="profile.html" title="">Setting</a></li>
+                <li><a href="privacy.html" title="">Privacy</a></li>
+                <li>
+                  <a href="support-and-help.html" title="">Support & Help</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span>Authentication</span>
+              <ul>
+                <li><a href="login.html" title="">Login Page</a></li>
+                <li><a href="register.html" title="">Register Page</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- responsive header -->
+
+      <div class="topbar stick">
+        <div class="logo">
+          <a title="" href="index.html"
+            ><img
+              src="images/logo.png"
+              alt="logo"
+              style="width: 40px; height: 40px"
+          /></a>
+        </div>
+        <div class="top-area">
+          <!-- <div class="main-menu">
+            <span>
+              <i class="fa fa-braille"></i>
+            </span>
+          </div> -->
+          <div class="top-search">
+            <form method="post" class="">
+              <input type="search" placeholder="Search..." />
+              <button data-ripple>
+                <i
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-name="Layer 1"
+                    viewBox="0 0 512 512"
+                    class="search-icon"
+                    height="15px"
+                    width="15px"
+                  >
+                    <path
+                      d="M455 455a25 25 0 01-35.4 0l-81.3-81.2a32.2 32.2 0 01-.9-44.7 137 137 0 00-101-229.5h-.5a136 136 0 00-97 40.9 137.3 137.3 0 00.6 192.7 136.4 136.4 0 00139.2 33.6 25 25 0 0115.3 47.6 187 187 0 01-190-46 187.5 187.5 0 01-.8-263 185.6 185.6 0 01132.5-55.8h.8A187 187 0 01385 350l69.9 69.8a25 25 0 010 35.4z"
+                    ></path>
+                    <path d="M0 0h512v512H0z" fill="none"></path></svg
+                ></i>
+              </button>
+            </form>
+          </div>
+
+          <ul class="setting-area">
+            <li>
+              <a href="" title="Friend Requests" data-ripple=""
+                ><em class="bg-success">5</em>
+                <div>
+                  <img
+                    src="images/icons/message.svg"
+                    alt="message"
+                    style="width: 25px; height: 25px"
+                  />
+                </div>
+              </a>
+              <div class="dropdowns">
+                <span style="padding: 16px"
+                  >5 New Messages
+                  <a href="#" title="">Mark all as read</a></span
+                >
+                <ul class="drops-menu">
+                  <li>
+                    <a class="show-mesg" href="#" title="">
+                      <figure>
+                        <img src="images/resources/thumb-1.jpg" alt="" />
+                        <span class="status f-online"></span>
+                      </figure>
+                      <div class="mesg-meta">
+                        <h6>sarah Loren</h6>
+                        <span
+                          ><i class="ti-check"></i> Hi, how r u dear ...?</span
+                        >
+                        <i>2 min ago</i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="show-mesg" href="#" title="">
+                      <figure>
+                        <img src="images/resources/thumb-2.jpg" alt="" />
+                        <span class="status f-offline"></span>
+                      </figure>
+                      <div class="mesg-meta">
+                        <h6>Jhon doe</h6>
+                        <span
+                          ><i class="ti-check"></i> Weâ€™ll have to check that
+                          at the office and see if the client is on board
+                          with</span
+                        >
+                        <i>2 min ago</i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="show-mesg" href="#" title="">
+                      <figure>
+                        <img src="images/resources/thumb-3.jpg" alt="" />
+                        <span class="status f-online"></span>
+                      </figure>
+                      <div class="mesg-meta">
+                        <h6>Andrew</h6>
+                        <span>
+                          <i class="fa fa-paperclip"></i>Hi Jack's! Itâ€™s
+                          Diana, I just wanted to let you know that we have to
+                          reschedule..</span
+                        >
+                        <i>2 min ago</i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="show-mesg" href="#" title="">
+                      <figure>
+                        <img src="images/resources/thumb-4.jpg" alt="" />
+                        <span class="status f-offline"></span>
+                      </figure>
+                      <div class="mesg-meta">
+                        <h6>Tom cruse</h6>
+                        <span
+                          ><i class="ti-check"></i> Great, Iâ€™ll see you
+                          tomorrow!.</span
+                        >
+                        <i>2 min ago</i>
+                      </div>
+                    </a>
+                    <span class="tag">New</span>
+                  </li>
+                  <li>
+                    <a class="show-mesg" href="#" title="">
+                      <figure>
+                        <img src="images/resources/thumb-5.jpg" alt="" />
+                        <span class="status f-away"></span>
+                      </figure>
+                      <div class="mesg-meta">
+                        <h6>Amy</h6>
+                        <span
+                          ><i class="fa fa-paperclip"></i> Sed ut perspiciatis
+                          unde omnis iste natus error sit
+                        </span>
+                        <i>2 min ago</i>
+                      </div>
+                    </a>
+                    <span class="tag">New</span>
+                  </li>
+                </ul>
+                <a
+                  href="chat-messenger.html"
+                  title=""
+                  class="more-mesg"
+                  style="padding: 16px"
+                  >View All</a
+                >
+              </div>
+            </li>
+            <li>
+              <a href="#" title="Notification" data-ripple="">
+                <div>
+                  <img
+                    src="images/icons/notification.svg"
+                    alt="message"
+                    style="width: 25px; height: 25px"
+                  />
+                </div>
+                <em class="bg-red">7</em>
+              </a>
+              <div class="dropdowns">
+                <span style="padding: 16px"
+                  >4 New Notifications
+                  <a href="#" title="">Mark all as read</a></span
+                >
+                <ul class="drops-menu">
+                  <li>
+                    <a href="notifications.html" title="">
+                      <figure>
+                        <img src="images/resources/thumb-1.jpg" alt="" />
+                        <span class="status f-online"></span>
+                      </figure>
+                      <div class="mesg-meta">
+                        <h6>sarah Loren</h6>
+                        <span>commented on your new profile status</span>
+                        <i>2 min ago</i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="notifications.html" title="">
+                      <figure>
+                        <img src="images/resources/thumb-2.jpg" alt="" />
+                        <span class="status f-online"></span>
+                      </figure>
+                      <div class="mesg-meta">
+                        <h6>Jhon doe</h6>
+                        <span
+                          >Nicholas Grissom just became friends. Write on his
+                          wall.</span
+                        >
+                        <i>4 hours ago</i>
+                        <figure>
+                          <span
+                            >Today is Marina Valentineâ€™s Birthday! wish for
+                            celebrating</span
+                          >
+                          <img src="images/birthday.png" alt="" />
+                        </figure>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="notifications.html" title="">
+                      <figure>
+                        <img src="images/resources/thumb-3.jpg" alt="" />
+                        <span class="status f-online"></span>
+                      </figure>
+                      <div class="mesg-meta">
+                        <h6>Andrew</h6>
+                        <span>commented on your photo.</span>
+                        <i>Sunday</i>
+                        <figure>
+                          <span
+                            >"Celebrity looks Beautiful in that outfit! We
+                            should see each"</span
+                          >
+                          <img src="images/resources/admin.jpg" alt="" />
+                        </figure>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="notifications.html" title="">
+                      <figure>
+                        <img src="images/resources/thumb-4.jpg" alt="" />
+                        <span class="status f-online"></span>
+                      </figure>
+                      <div class="mesg-meta">
+                        <h6>Tom cruse</h6>
+                        <span>nvited you to attend to his event Goo in</span>
+                        <i>May 19</i>
+                      </div>
+                    </a>
+                    <span class="tag">New</span>
+                  </li>
+                  <li>
+                    <a href="notifications.html" title="">
+                      <figure>
+                        <img src="images/resources/thumb-5.jpg" alt="" />
+                        <span class="status f-online"></span>
+                      </figure>
+                      <div class="mesg-meta">
+                        <h6>Amy</h6>
+                        <span>Andrew Changed his profile picture. </span>
+                        <i>dec 18</i>
+                      </div>
+                    </a>
+                    <span class="tag">New</span>
+                  </li>
+                </ul>
+                <a
+                  href="notifications.html"
+                  title=""
+                  class="more-mesg"
+                  style="padding: 16px"
+                  >View All</a
+                >
+              </div>
+            </li>
+            <li>
+              <a href="support-and-help.html">
+                <img
+                  src="images/icons/setting-2.svg"
+                  alt="message"
+                  style="width: 25px; height: 25px"
+                />
+              </a>
+            </li>
+          </ul>
+          <div class="user-img">
+            <h5>Suraj Jamdade</h5>
+            <img src="images/resources/admin.jpg" alt="" />
+            <span class="status f-online"></span>
+            <div class="user-setting">
+              <div
+                class="d-flex"
+                style="
+                  gap: 10px;
+                  padding: 10px 0 0 10px;
+                  border-bottom: 1px solid #ddd;
+                "
+              >
+                <img
+                  src="images/resources/admin.jpg"
+                  alt="user"
+                  style="width: 40px; height: 40px; border-radius: 50%"
+                />
+                <div>
+                  <p style="margin-bottom: -5px; color: #000">Suraj Jamdade</p>
+                  <p class="" style="font-size: 12px">suraj@gmail.com</p>
+                </div>
+              </div>
+              <ul class="log-out">
+                <li>
+                  <a href="profile.html" title=""
+                    ><i class="ti-user"></i> view profile</a
+                  >
+                </li>
+                <li>
+                  <a href="post-activity.html" title=""
+                    ><i class="ti-target"></i>Post & activity</a
+                  >
+                </li>
+                <li>
+                  <a href="support-and-help.html" title=""
+                    ><i class="ti-settings"></i>Help</a
+                  >
+                </li>
+                <li>
+                  <a href="login.html" title=""
+                    ><i class="ti-power-off"></i>log out</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- nav menu -->
+      </div>
+      <!-- topbar -->
+
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12" style="background: #4565a6 !important">
+              <div class="container">
+                <div class="no-top">
+                  <div
+                    class="central-meta no-margin"
+                    style="border: none; background: #4565a6 !important"
+                  >
+                    <div class="owl-carousel nave-area-carousel">
+                      <div class="item">
+                        <a href="index.html" title=""
+                          ><i class="fa-regular fa-home"></i>&nbsp; Issues</a
+                        >
+                      </div>
+                      <div class="item">
+                        <a href="daily-news.html" title=""
+                          ><i class="fas fa-newspaper"></i>&nbsp; Daily News</a
+                        >
+                      </div>
+                      <div class="item">
+                        <a href="legislative-updates.html" title=""
+                          ><i class="fas fa-bank"></i>&nbsp; Legislative
+                          Updates</a
+                        >
+                      </div>
+                      <div class="item">
+                        <a href="public-poll.html" title=""
+                          ><i class="fas fa-poll-h"></i> &nbsp;Public Poll</a
+                        >
+                      </div>
+                      <div class="item">
+                        <a href="voters-summary.html" title=""
+                          ><i class="fas fa-users"></i>&nbsp; Voters Summary</a
+                        >
+                      </div>
+                      <div class="item">
+                        <a href="opinion-poll.html" title=""
+                          ><i class="fas fa-poll"></i>&nbsp; Opinion Poll</a
+                        >
+                      </div>
+                      <div class="item">
+                        <a href="schemes-update.html" title=""
+                          ><i class="fas fa-bullhorn"></i>&nbsp; Schemes
+                          Update</a
+                        >
+                      </div>
+                      <div class="item">
+                        <a href="case-journey-tracker.html" title=""
+                          ><i class="fas fa-map"></i>&nbsp; Case Journey
+                          Tracker</a
+                        >
+                      </div>
+                      <div class="item">
+                        <a
+                          href="audio-podcast-news.html"
+                          title=""
+                          class="active"
+                          ><i class="fas fa-podcast"></i>&nbsp; Audio Podcast
+                          News</a
+                        >
+                      </div>
+                      <div class="item">
+                        <a href="weather-emergency-alert.html" title=""
+                          ><i class="fas fa-cloud-sun"></i>&nbsp; Weather
+                          Alerts</a
+                        >
+                      </div>
+                      <div class="item">
+                        <a href="in-depth-case-studies.html" title=""
+                          ><i class="fas fa-search"></i>&nbsp; In Depth Case
+                          Studies</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gap2 gray-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row merged20" id="page-contents">
+                  <div class="pod-featurs">
+                    <div class="pod-caro1">
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-1.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-2.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-3.jpg"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-4.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-5.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-6.jpg"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-7.jpg"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="pod-caro2">
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-11.jpg"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-5.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-12.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-13.jpg"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-14.jpg"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-1.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-3.jpg"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="pod-caro3">
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-10.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-9.jpg"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-8.jpg"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-5.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-6.jpg"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-3.jpg"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="slick-slide-item">
+                        <a
+                          href="#"
+                          title=""
+                          data-toggle="modal"
+                          data-target="#podcastMusicModal"
+                          ><img
+                            src="images/resources/pod-gallry-1.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-2">
+                    <aside class="sidebar">
+                      <div class="widget stick-widget">
+                        <h4 class="widget-title">Menu</h4>
+                        <ul class="naves">
+                          <li>
+                            <i class="ti-clipboard"></i>
+                            <a href="index.html" title="">Trending</a>
+                          </li>
+
+                          <li>
+                            <i class="ti-files"></i>
+                            <a href="medical-issues.html" title=""
+                              >Medical Issues</a
+                            >
+                          </li>
+
+                          <li>
+                            <i class="ti-image"></i>
+                            <a href="timeline-photos.html" title="">Recent</a>
+                          </li>
+                          <li>
+                            <i class="ti-video-camera"></i>
+                            <a href="timeline-videos.html" title="">Playlist</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- Shortcuts -->
+                    </aside>
+                  </div>
+
+                  <!-- sidebar -->
+                  <div class="col-lg-7">
+                    <div class="podcast-sec">
+                      <div class="pod-title">
+                        <h5>Discover New and Popular Podcasts</h5>
+                        <a
+                          href="#"
+                          title=""
+                          class="main-btn"
+                          data-toggle="modal"
+                          data-target="#addPodcastModal"
+                          style="cursor: pointer"
+                          >Add New Podcast</a
+                        >
+                      </div>
+                      <div class="central-meta">
+                        <div class="pod-meta">
+                          <div class="create-post">
+                            <i class="fa-duotone fa-podcast"></i> New!
+                          </div>
+                          <ul>
+                            <li>
+                              <div class="pod-post">
+                                <figure>
+                                  <img
+                                    src="images/resources/author.jpg"
+                                    alt=""
+                                  />
+                                </figure>
+                                <div class="pod-post-meta">
+                                  <h6>
+                                    <a href="#" title="">The Volunteer</a>
+                                  </h6>
+                                  <span
+                                    ><i class="fa-regular fa-podcast"></i>
+                                    James</span
+                                  >
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="pod-post">
+                                <figure>
+                                  <img
+                                    src="images/resources/author2.jpg"
+                                    alt=""
+                                  />
+                                </figure>
+                                <div class="pod-post-meta">
+                                  <h6>
+                                    <a href="#" title="">The Volunteer</a>
+                                  </h6>
+                                  <span
+                                    ><i class="fa-regular fa-podcast"></i>
+                                    Emily</span
+                                  >
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="pod-post">
+                                <figure>
+                                  <img
+                                    src="images/resources/author3.jpg"
+                                    alt=""
+                                  />
+                                </figure>
+                                <div class="pod-post-meta">
+                                  <h6>
+                                    <a href="#" title="">The Volunteer</a>
+                                  </h6>
+                                  <span
+                                    ><i class="fa-regular fa-podcast"></i>
+                                    Lora</span
+                                  >
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="pod-post">
+                                <figure>
+                                  <img
+                                    src="images/resources/author4.jpg"
+                                    alt=""
+                                  />
+                                </figure>
+                                <div class="pod-post-meta">
+                                  <h6>
+                                    <a href="#" title="">The Volunteer</a>
+                                  </h6>
+                                  <span
+                                    ><i class="fa-regular fa-podcast"></i>
+                                    James</span
+                                  >
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="pod-post">
+                                <figure>
+                                  <img
+                                    src="images/resources/chatuser1.jpg"
+                                    alt=""
+                                  />
+                                </figure>
+                                <div class="pod-post-meta">
+                                  <h6>
+                                    <a href="#" title="">The Volunteer</a>
+                                  </h6>
+                                  <span
+                                    ><i class="fa-regular fa-podcast"></i>
+                                    Noah</span
+                                  >
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="pod-post">
+                                <figure>
+                                  <img
+                                    src="images/resources/chatuser2.jpg"
+                                    alt=""
+                                  />
+                                </figure>
+                                <div class="pod-post-meta">
+                                  <h6>
+                                    <a href="#" title="">The Volunteer</a>
+                                  </h6>
+                                  <span
+                                    ><i class="fa-regular fa-podcast"></i>
+                                    Lucas</span
+                                  >
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="central-meta">
+                        <span class="create-post"
+                          ><i class="fa-duotone fa-podcast"></i> Podcast
+                        </span>
+                        <ul class="new-pod-post">
+                          <li>
+                            <a
+                              href="#"
+                              title=""
+                              data-toggle="modal"
+                              data-target="#podcastMusicModal"
+                              ><img
+                                src="images/resources/pod-gallry-1.png"
+                                alt=""
+                            /></a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                              title=""
+                              data-toggle="modal"
+                              data-target="#podcastMusicModal"
+                              ><img
+                                src="images/resources/pod-gallry-2.png"
+                                alt=""
+                            /></a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                              title=""
+                              data-toggle="modal"
+                              data-target="#podcastMusicModal"
+                              ><img
+                                src="images/resources/pod-gallry-4.png"
+                                alt=""
+                            /></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="central-meta">
+                        <div class="create-post">
+                          <i class="fa-duotone fa-microphone"></i> Popular
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-4">
+                            <div class="pod-post style2">
+                              <figure>
+                                <img
+                                  src="images/resources/chatuser3.jpg"
+                                  alt=""
+                                />
+                              </figure>
+                              <div class="pod-post-meta">
+                                <h6><a href="#" title="">The Volunteer</a></h6>
+                                <span
+                                  ><i class="fa-regular fa-podcast"></i> Sarah
+                                  Leon</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="pod-post style2">
+                              <figure>
+                                <img
+                                  src="images/resources/chatuser4.jpg"
+                                  alt=""
+                                />
+                              </figure>
+                              <div class="pod-post-meta">
+                                <h6><a href="#" title="">The Volunteer</a></h6>
+                                <span
+                                  ><i class="fa-regular fa-podcast"></i> jason
+                                  smith</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <div class="pod-post style2">
+                              <figure>
+                                <img
+                                  src="images/resources/chatuser5.jpg"
+                                  alt=""
+                                />
+                              </figure>
+                              <div class="pod-post-meta">
+                                <h6><a href="#" title="">The Volunteer</a></h6>
+                                <span
+                                  ><i class="fa-regular fa-podcast"></i> Emily
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="central-meta">
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <div class="pod-banner">
+                              <img
+                                src="images/resources/pod-banner1.jpg"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="pod-banner">
+                              <img
+                                src="images/resources/pod-banner2.jpg"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="central-meta">
+                        <div class="create-post">
+                          <i class="fa-duotone fa-microphone-stand"></i>
+                          Recently Played
+                        </div>
+                        <ul class="recent-pods">
+                          <li>
+                            <div class="apod-recent">
+                              <figure>
+                                <img
+                                  src="images/resources/recent-pod2.jpg"
+                                  alt=""
+                                />
+                                <svg
+                                  class="svg-inline--fa fa-circle-play"
+                                  aria-hidden="true"
+                                  focusable="false"
+                                  data-prefix="fa-solid"
+                                  data-icon="circle-play"
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 512 512"
+                                  data-fa-i2svg=""
+                                  data-toggle="modal"
+                                  data-target="#podcastMusicModal"
+                                >
+                                  <path
+                                    fill="currentColor"
+                                    d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM372.5 276.5l-144 88C224.7 366.8 220.3 368 216 368c-13.69 0-24-11.2-24-24V168C192 155.3 202.2 144 216 144c4.344 0 8.678 1.176 12.51 3.516l144 88C379.6 239.9 384 247.6 384 256C384 264.4 379.6 272.1 372.5 276.5z"
+                                  ></path></svg
+                                ><!-- <i class="fa-solid fa-circle-play"></i> -->
+                              </figure>
+                              <span
+                                ><svg
+                                  class="svg-inline--fa fa-headset"
+                                  aria-hidden="true"
+                                  focusable="false"
+                                  data-prefix="fa-regular"
+                                  data-icon="headset"
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 512 512"
+                                  data-fa-i2svg=""
+                                >
+                                  <path
+                                    fill="currentColor"
+                                    d="M256 0C112.9 0 4.583 119.1 .0208 256L0 309.2C0 350.5 32.75 384 73.14 384h18.29C111.6 384 128 367.3 128 346.6V213.4C128 192.7 111.6 176 91.43 176H73.14c-3.277 0-6.344 .7148-9.498 1.148C94.8 101.5 169.3 48.2 256 48.19c86.74 .0117 161.2 53.36 192.4 128.1C445.2 176.7 442.1 176 438.9 176h-18.29C400.4 176 384 192.7 384 213.4v133.2C384 367.3 400.4 384 420.6 384h18.29c8.875 0 17.27-1.861 25.14-4.82V400c0 22.06-17.94 40-40 40h-110.7C305 425.7 289.7 416 272 416h-32C213.5 416 192 437.5 192 464S213.5 512 239.1 512H272c17.72 0 33.03-9.711 41.34-24H424c48.53 0 88-39.47 88-88V256C507.4 119.1 399.1 0 256 0zM73.14 224H80v112H73.14C59.28 336 48 323.1 48 309.2V256c0-2.41 .2793-4.75 .3613-7.141C49.33 235 59.91 224 73.14 224zM438.9 336H432V224h6.857c13.23 0 23.81 11.04 24.78 24.86C463.7 251.3 464 253.6 464 256v53.24C464 323.1 452.7 336 438.9 336z"
+                                  ></path></svg
+                                ><!-- <i class="fa-regular fa-headset"></i> -->
+                                The lifestyle show</span
+                              >
+                              <a href="#" title=""
+                                >This is the perfect mic if you need quality.</a
+                              >
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="apod-recent">
+                              <figure>
+                                <img
+                                  src="images/resources/recent-pod1.jpg"
+                                  alt=""
+                                />
+                                <svg
+                                  class="svg-inline--fa fa-circle-play"
+                                  aria-hidden="true"
+                                  focusable="false"
+                                  data-prefix="fa-solid"
+                                  data-icon="circle-play"
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 512 512"
+                                  data-fa-i2svg=""
+                                  data-toggle="modal"
+                                  data-target="#podcastMusicModal"
+                                >
+                                  <path
+                                    fill="currentColor"
+                                    d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM372.5 276.5l-144 88C224.7 366.8 220.3 368 216 368c-13.69 0-24-11.2-24-24V168C192 155.3 202.2 144 216 144c4.344 0 8.678 1.176 12.51 3.516l144 88C379.6 239.9 384 247.6 384 256C384 264.4 379.6 272.1 372.5 276.5z"
+                                  ></path></svg
+                                ><!-- <i class="fa-solid fa-circle-play"></i> -->
+                              </figure>
+                              <span
+                                ><svg
+                                  class="svg-inline--fa fa-headset"
+                                  aria-hidden="true"
+                                  focusable="false"
+                                  data-prefix="fa-regular"
+                                  data-icon="headset"
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 512 512"
+                                  data-fa-i2svg=""
+                                >
+                                  <path
+                                    fill="currentColor"
+                                    d="M256 0C112.9 0 4.583 119.1 .0208 256L0 309.2C0 350.5 32.75 384 73.14 384h18.29C111.6 384 128 367.3 128 346.6V213.4C128 192.7 111.6 176 91.43 176H73.14c-3.277 0-6.344 .7148-9.498 1.148C94.8 101.5 169.3 48.2 256 48.19c86.74 .0117 161.2 53.36 192.4 128.1C445.2 176.7 442.1 176 438.9 176h-18.29C400.4 176 384 192.7 384 213.4v133.2C384 367.3 400.4 384 420.6 384h18.29c8.875 0 17.27-1.861 25.14-4.82V400c0 22.06-17.94 40-40 40h-110.7C305 425.7 289.7 416 272 416h-32C213.5 416 192 437.5 192 464S213.5 512 239.1 512H272c17.72 0 33.03-9.711 41.34-24H424c48.53 0 88-39.47 88-88V256C507.4 119.1 399.1 0 256 0zM73.14 224H80v112H73.14C59.28 336 48 323.1 48 309.2V256c0-2.41 .2793-4.75 .3613-7.141C49.33 235 59.91 224 73.14 224zM438.9 336H432V224h6.857c13.23 0 23.81 11.04 24.78 24.86C463.7 251.3 464 253.6 464 256v53.24C464 323.1 452.7 336 438.9 336z"
+                                  ></path></svg
+                                ><!-- <i class="fa-regular fa-headset"></i> -->
+                                The lifestyle show</span
+                              >
+                              <a href="#" title=""
+                                >This is the perfect mic if you need quality.</a
+                              >
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="apod-recent">
+                              <figure>
+                                <img
+                                  src="images/resources/recent-pod3.jpg"
+                                  alt=""
+                                />
+                                <svg
+                                  class="svg-inline--fa fa-circle-play"
+                                  aria-hidden="true"
+                                  focusable="false"
+                                  data-prefix="fa-solid"
+                                  data-icon="circle-play"
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 512 512"
+                                  data-fa-i2svg=""
+                                  data-toggle="modal"
+                                  data-target="#podcastMusicModal"
+                                >
+                                  <path
+                                    fill="currentColor"
+                                    d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM372.5 276.5l-144 88C224.7 366.8 220.3 368 216 368c-13.69 0-24-11.2-24-24V168C192 155.3 202.2 144 216 144c4.344 0 8.678 1.176 12.51 3.516l144 88C379.6 239.9 384 247.6 384 256C384 264.4 379.6 272.1 372.5 276.5z"
+                                  ></path></svg
+                                ><!-- <i class="fa-solid fa-circle-play"></i> -->
+                              </figure>
+                              <span
+                                ><svg
+                                  class="svg-inline--fa fa-headset"
+                                  aria-hidden="true"
+                                  focusable="false"
+                                  data-prefix="fa-regular"
+                                  data-icon="headset"
+                                  role="img"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 512 512"
+                                  data-fa-i2svg=""
+                                >
+                                  <path
+                                    fill="currentColor"
+                                    d="M256 0C112.9 0 4.583 119.1 .0208 256L0 309.2C0 350.5 32.75 384 73.14 384h18.29C111.6 384 128 367.3 128 346.6V213.4C128 192.7 111.6 176 91.43 176H73.14c-3.277 0-6.344 .7148-9.498 1.148C94.8 101.5 169.3 48.2 256 48.19c86.74 .0117 161.2 53.36 192.4 128.1C445.2 176.7 442.1 176 438.9 176h-18.29C400.4 176 384 192.7 384 213.4v133.2C384 367.3 400.4 384 420.6 384h18.29c8.875 0 17.27-1.861 25.14-4.82V400c0 22.06-17.94 40-40 40h-110.7C305 425.7 289.7 416 272 416h-32C213.5 416 192 437.5 192 464S213.5 512 239.1 512H272c17.72 0 33.03-9.711 41.34-24H424c48.53 0 88-39.47 88-88V256C507.4 119.1 399.1 0 256 0zM73.14 224H80v112H73.14C59.28 336 48 323.1 48 309.2V256c0-2.41 .2793-4.75 .3613-7.141C49.33 235 59.91 224 73.14 224zM438.9 336H432V224h6.857c13.23 0 23.81 11.04 24.78 24.86C463.7 251.3 464 253.6 464 256v53.24C464 323.1 452.7 336 438.9 336z"
+                                  ></path></svg
+                                ><!-- <i class="fa-regular fa-headset"></i> -->
+                                The lifestyle show</span
+                              >
+                              <a href="#" title=""
+                                >This is the perfect mic if you need quality.</a
+                              >
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <aside class="sidebar static">
+                      <div class="widget">
+                        <h4 class="widget-title">
+                          <i class="fa-duotone fa-magnifying-glass"></i> Quick
+                          Search
+                        </h4>
+                        <form class="quick-search" method="post">
+                          <input
+                            type="text"
+                            title=""
+                            placeholder="Search Creator..."
+                          />
+                          <button type="submit">
+                            <i class="fa-regular fa-search"></i>
+                          </button>
+                        </form>
+                      </div>
+                      <div class="widget">
+                        <h4 class="widget-title">
+                          <i class="fa-solid fa-star"></i> Top Podcasts
+                        </h4>
+                        <ul class="top-podcasters">
+                          <li>
+                            <img src="images/resources/user1.jpg" alt="" />
+                            <div>
+                              <a href="#" title=""
+                                ><i class="fa-regular fa-microphone"></i> Joe
+                                Rogan</a
+                              >
+                              <span>1.1M Followers</span>
+                            </div>
+                          </li>
+                          <li>
+                            <img src="images/resources/user6.jpg" alt="" />
+                            <div>
+                              <a href="#" title=""
+                                ><i class="fa-regular fa-microphone"></i> Fahad
+                                Ali</a
+                              >
+                              <span>1.1M Followers</span>
+                            </div>
+                          </li>
+                          <li>
+                            <img src="images/resources/user3.jpg" alt="" />
+                            <div>
+                              <a href="#" title=""
+                                ><i class="fa-regular fa-microphone"></i> Sarah
+                                K.</a
+                              >
+                              <span>1.1M Followers</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- top podcasts -->
+                      <div class="widget stick-widget">
+                        <h4 class="widget-title">
+                          <i class="fa-duotone fa-radar"></i> Podcast Categories
+                        </h4>
+                        <ul class="podcast-catgry">
+                          <li>
+                            <i class="fa-regular fa-trophy"></i>
+                            <span>All Podcast</span>
+                            <em>120+</em>
+                          </li>
+                          <li>
+                            <i class="fa-regular fa-star-christmas fa-fw"></i>
+                            <span>Recent</span>
+                            <em>120+</em>
+                          </li>
+                          <li>
+                            <i
+                              class="fa-sharp fa-regular fa-graduation-cap fa-fw"
+                            ></i>
+                            <span>Social</span>
+                            <em>120+</em>
+                          </li>
+                          <li>
+                            <i class="fa-regular fa-heart fa-fw"></i>
+                            <span>Medical</span>
+                            <em>120+</em>
+                          </li>
+                          <li>
+                            <i class="fa-regular fa-briefcase fa-fw"></i>
+                            <span>Business</span>
+                            <em>120+</em>
+                          </li>
+                          <li>
+                            <i class="fa-regular fa-notes-medical fa-fw"></i>
+                            <span>Life & Health</span>
+                            <em>120+</em>
+                          </li>
+                          <li>
+                            <i class="fa-sharp fa-regular fa-film fa-fw"></i>
+                            <span>Art & Film</span>
+                            <em>120+</em>
+                          </li>
+                          <li>
+                            <i class="fa-regular fa-landmark fa-fw"></i>
+                            <span>Society</span>
+                            <em>120+</em>
+                          </li>
+                        </ul>
+                      </div>
+                    </aside>
+                  </div>
+                  <!-- sidebar -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- modal start -->
+
+    <div
+      class="modal fade"
+      id="addPodcastModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      style="z-index: 9999"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Add Podcast News</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body" style="height: 400px; overflow-y: scroll">
+            <div class="send-message">
+              <form method="post" class="c-form">
+                <label style="font-size: 12px" for="message" class="mb-3"
+                  >Image *</label
+                >
+                <input
+                  style="height: 45px"
+                  type="file"
+                  placeholder="E.g.Drive myself"
+                  class="form-control mb-4"
+                />
+                <label style="font-size: 12px" for="message" class="mb-3"
+                  >Name *</label
+                >
+                <input
+                  style="height: 45px"
+                  type="text"
+                  placeholder="suraj jamdade"
+                  class="form-control mb-4"
+                />
+                <label style="font-size: 12px" for="message" class="mb-3"
+                  >Audio File*</label
+                >
+                <input
+                  style="height: 45px"
+                  type="file"
+                  placeholder="E.g.Drive myself"
+                  class="form-control mb-4"
+                />
+
+                <label style="font-size: 12px" for="message" class="mb-3"
+                  >Select Podcast category*</label
+                >
+                <select name="" id="" class="form-control mb-4">
+                  <option value="">Social</option>
+                  <option value="">Medical</option>
+                  <option value="">Business</option>
+                  <option value="">Life & Health</option>
+                  <option value="">Art & Film</option>
+                  <option value="">Society</option>
+                </select>
+
+                <label style="font-size: 12px" for="message" class="mt-3"
+                  >Description*</label
+                >
+                <textarea name="" id="" class="form-control mb-4"></textarea>
+
+                <p class="mt-3" style="font-size: 12px">
+                  We allow all category audio podcast news.
+                </p>
+              </form>
+            </div>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Close
+            </button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Done
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- podcastMusicModal start -->
+
+    <div
+      class="modal fade"
+      id="podcastMusicModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      style="z-index: 9999"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <!-- Modal Header -->
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <div class="todays mate-black medium-opacity">
+              <div
+                class="bg-image"
+                style="background-image: url(images/resources/soundnik.jpg)"
+              ></div>
+              <h4 class="sound-title">
+                Today's Most trending for free in the Soundnik community
+              </h4>
+              <div class="sound-post-box">
+                <div class="sound-user">
+                  <figure>
+                    <img src="images/resources/sound-user1.jpg" alt="" />
+                  </figure>
+                  <div class="sound-usr-nm mx-5">
+                    <h6>Tamil Nadu</h6>
+                    <span style="color: #fff"
+                      ><i class="fa fa-map-marker" style="color: #fff"></i>
+                      India</span
+                    >
+                  </div>
+                </div>
+
+                <span style="color: #fff"
+                  ><i class="fa fa-cloud-upload" style="color: #fff"></i> 25
+                  Oct, 2024</span
+                >
+                <div class="sound-track-area">
+                  <audio controls class="mt-3" style="background: transparent">
+                    <source
+                      src="http://physical-authority.surge.sh/music/2.mp3"
+                    />
+                  </audio>
+                  <ul class="pit-opt mt-4">
+                    <li style="color: #fff">
+                      <div
+                        title="Like/Dislike"
+                        class="likes heart"
+                        style="color: #fff"
+                      >
+                        ❤ <span>1.6k</span>
+                      </div>
+                    </li>
+
+                    <li title="Get Post Link" class="get-link">
+                      <i class="fa fa-link" style="color: #fff"></i>
+                    </li>
+
+                    <li>
+                      <span>
+                        <a class="share-pst" href="#" title="Share">
+                          <i class="fa fa-share-alt" style="color: #fff"></i>
+                        </a>
+                        <span style="color: #fff">1.6k</span>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup-wraper2">
+      <div class="popup post-sharing">
+        <span class="popup-closed"><i class="ti-close"></i></span>
+        <div class="popup-meta">
+          <div class="popup-head" style="border: none"></div>
+
+          <div class="postbox">
+            <div class="post-comt-box mb-lg-3">
+              <form method="post">
+                <input type="search" placeholder="Search Friends..." />
+                <button type="submit"></button>
+              </form>
+            </div>
+
+            <div
+              class="row"
+              style="
+                height: 200px;
+                overflow-y: scroll;
+                border-bottom: 1px solid #f2f2f2;
+              "
+            >
+              <div class="col-4">
+                <a href="#">
+                  <figure class="text-center">
+                    <img
+                      src="images/resources/speak-2.jpg"
+                      alt="img"
+                      style="width: 60px; height: 60px; border-radius: 50%"
+                    />
+                    <figcaption>Suraj Jamdade</figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="#">
+                  <figure class="text-center">
+                    <img
+                      src="images/resources/speak-2.jpg"
+                      alt="img"
+                      style="width: 60px; height: 60px; border-radius: 50%"
+                    />
+                    <figcaption>Suraj Jamdade</figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="#">
+                  <figure class="text-center">
+                    <img
+                      src="images/resources/speak-2.jpg"
+                      alt="img"
+                      style="width: 60px; height: 60px; border-radius: 50%"
+                    />
+                    <figcaption>Suraj Jamdade</figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="#">
+                  <figure class="text-center">
+                    <img
+                      src="images/resources/speak-2.jpg"
+                      alt="img"
+                      style="width: 60px; height: 60px; border-radius: 50%"
+                    />
+                    <figcaption>Suraj Jamdade</figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="#">
+                  <figure class="text-center">
+                    <img
+                      src="images/resources/speak-2.jpg"
+                      alt="img"
+                      style="width: 60px; height: 60px; border-radius: 50%"
+                    />
+                    <figcaption>Suraj Jamdade</figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="#">
+                  <figure class="text-center">
+                    <img
+                      src="images/resources/speak-2.jpg"
+                      alt="img"
+                      style="width: 60px; height: 60px; border-radius: 50%"
+                    />
+                    <figcaption>Suraj Jamdade</figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="#">
+                  <figure class="text-center">
+                    <img
+                      src="images/resources/speak-2.jpg"
+                      alt="img"
+                      style="width: 60px; height: 60px; border-radius: 50%"
+                    />
+                    <figcaption>Suraj Jamdade</figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="#">
+                  <figure class="text-center">
+                    <img
+                      src="images/resources/speak-2.jpg"
+                      alt="img"
+                      style="width: 60px; height: 60px; border-radius: 50%"
+                    />
+                    <figcaption>Suraj Jamdade</figcaption>
+                  </figure>
+                </a>
+              </div>
+            </div>
+
+            <div class="share-to-other mt-lg-2">
+              <span>Share to other socials</span>
+              <ul>
+                <li>
+                  <a class="facebook-color" href="#" title=""
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="twitter-color" href="#" title=""
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="dribble-color" href="#" title=""
+                    ><i class="fa-brands fa-dribbble"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="instagram-color" href="#" title=""
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="pinterest-color" href="#" title=""
+                    ><i class="fa-brands fa-pinterest"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="copy-email">
+              <span>Copy & Email</span>
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    title="Copy Post Link"
+                    style="background: blue !important"
+                    ><i class="fa fa-link"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" title="Email this Post bg-danger"
+                    ><i class="fa fa-envelope"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- share popup -->
+    <script src="js/main.min.js"></script>
+    <script src="js/jquery-stories.js"></script>
+    <script src="js/toast-notificatons.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <!-- For timeline slide show -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3vI4IQqzxRU1449lbIHThUb2gCeDW47w&callback=initMap"></script>
+    <!-- for location picker map -->
+    <script src="js/locationpicker.jquery.js"></script>
+    <!-- for loaction picker map -->
+    <script src="js/map-init.js"></script>
+    <!-- map initilasition -->
+    <script src="js/page-tourintro.js"></script>
+    <script src="js/page-tour-init.js"></script>
+    <script src="js/stories-zuck.js"></script>
+    <script src="js/stories-zuck-necessery.js"></script>
+    <script src="js/stories-zuck-init.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/mobile.nav.js"></script>
+  </body>
+</html>

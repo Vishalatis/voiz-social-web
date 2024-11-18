@@ -24696,3 +24696,9 @@ h5.filter-title {
   z-index: -2;
   transition: width 200ms ease-in-out;
 }
+
+
+.voters_chart{
+  width: 600px !important;
+  height: 350px !important;
+  }

@@ -1959,6 +1959,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  .voters_chart {
+    width: 350px !important;
+    height: 350px !important;
+  }
   .sidebar .widget ul.recent-photos li > a,
   .sidebar .widget ul.recent-photos li > a img {
     display: inline-block;

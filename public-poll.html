@@ -734,7 +734,7 @@
                                   font-weight: bold;
                                 "
                               >
-                                Public Poll
+                                Public Poll <span>2</span>
                               </h5>
                             </div>
                           </div>
@@ -848,10 +848,27 @@
                               </div>
                               <div class="poll">
                                 <div class="question"></div>
-                                <div class="answers"></div>
+                                <div
+                                  class="answers"
+                                  style="
+                                    margin: 10px;
+                                    padding: 10px;
+                                    border: 1px solid #ddd;
+                                    border-radius: 20px;
+                                  "
+                                ></div>
                               </div>
+
                               <div>
-                                <p>Nov 25, 2029 — 12,157 votes total</p>
+                                <p>
+                                  Habitant morbi tristique senectus et netus et.
+                                  Suspendisse sed nisi lacus sed viverra. Dolor
+                                  morbi non arcu risus quis varius.
+                                  <a href="" style="color: #4f46e5">
+                                    #amazing #great #lifetime #uiux
+                                    #machinelearning
+                                  </a>
+                                </p>
                               </div>
 
                               <div class="we-video-info">
@@ -1089,10 +1106,7 @@
                               >Trending</a
                             >
                           </li>
-                          <li
-                            class="nav-item"
-                            style="background: #000; border-radius: 5px"
-                          >
+                          <li class="nav-item">
                             <a class="" href="#hot" data-toggle="tab">Hot</a>
                           </li>
                         </ul>
@@ -1270,27 +1284,30 @@
           </div>
         </div>
       </section>
-      <!-- mobilr bottom menu -->
 
+      <!-- mobile bottom menu -->
       <div class="d-md-none d-block">
         <nav class="mobile-bottom-nav">
-          <a href="index.html" class="mobile-bottom-nav-nav-item is-active">
+          <a href="index.html" class="mobile-bottom-nav-nav-item">
             <i class="fa fa-home"></i>
             <span>Home</span>
           </a>
-          <a href="newsfeed.html" class="mobile-bottom-nav-nav-item">
+          <a href="daily-news.html" class="mobile-bottom-nav-nav-item">
             <i class="fa fa-newspaper"></i>
             <span> News</span>
           </a>
-          <a href="post.html" class="mobile-bottom-nav-nav-item">
+          <a href="index.html" class="mobile-bottom-nav-nav-item">
             <i class="fa fa-plus"></i>
             <span>Post</span>
           </a>
-          <a href="#" class="mobile-bottom-nav-nav-item">
+          <a
+            href="public-poll.html"
+            class="mobile-bottom-nav-nav-item is-active"
+          >
             <i class="fa fa-users"></i>
             <span>Public</span>
           </a>
-          <a href="setting.html" class="mobile-bottom-nav-nav-item">
+          <a href="profile.html" class="mobile-bottom-nav-nav-item">
             <i class="fa fa-user"></i>
             <span>Profile</span>
           </a>
@@ -1874,6 +1891,6 @@
     <script src="js/stories-zuck-init.js"></script>
     <script src="js/script.js"></script>
     <script src="js/mobile.nav.js"></script>
-    <script src="js/poll.js"></script>
+    <script src="js/public-poll.js"></script>
   </body>
 </html>

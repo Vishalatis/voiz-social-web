@@ -2607,7 +2607,7 @@ for some reason nth-child(1) is always busy and elements starting from 2 */
 }
 
 .we-comment > h5 {
-  color: #000dae;
+  color: #4f46e5 !important;
   display: inline-block;
   font-size: 14px;
   font-weight: 500;
@@ -2619,7 +2619,7 @@ for some reason nth-child(1) is always busy and elements starting from 2 */
 
 .we-comment > p {
   display: inline;
-  font-size: 13.4px;
+  /* font-size: 13.4px; */
   line-height: 20px;
   margin-bottom: 0;
   margin-top: 0;
@@ -7147,7 +7147,7 @@ a.addnewforum {
   border-radius: 4px;
   color: #fff;
   display: inline-block;
-  padding: 2px 10px;
+  padding: 5px 10px;
   transition: all 0.2s linear 0s;
   font-size: 13px;
 }
@@ -7161,7 +7161,7 @@ a.addnewforum {
 }
 
 .add-tofrndlist > a {
-  background: #3ca9fc none repeat scroll 0 0;
+  background: #02c1f3 none repeat scroll 0 0;
 }
 
 .add-remove-frnd > li {
@@ -8216,7 +8216,7 @@ input[type="checkbox"]:checked + label {
 }
 
 .title-block h5 > span {
-  background: #7750f8 none repeat scroll 0 0;
+  background: #02c1f3 none repeat scroll 0 0;
   border-radius: 100%;
   color: #fff;
   font-size: 12px;
@@ -10991,10 +10991,11 @@ svg #shadow_1_ {
 }
 
 .search-meta > span {
-  color: #535165;
+  color: #000;
   display: inline-block;
-  font-size: 24px;
+  font-size: 20px;
   width: 100%;
+  font-weight: bold;
 }
 
 .search-meta > span i {
@@ -11008,17 +11009,17 @@ svg #shadow_1_ {
 
 .search-tab > .nav-tabs {
   background: #fff none repeat scroll 0 0;
-  border-radius: 5px;
+  border-radius: 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
   margin-bottom: 20px;
   width: 100%;
 }
 
 .search-tab .nav-tabs .nav-item > a {
-  color: #535165;
+  color: #1e293b;
   display: inline-block;
   font-weight: 500;
-  padding: 15px 19px;
+  padding: 20px 20px;
   position: relative;
 }
 
@@ -11042,7 +11043,7 @@ svg #shadow_1_ {
   background: red none repeat scroll 0 0;
   bottom: 0;
   content: "";
-  height: 1px;
+  /* height: 1px; */
   left: 0;
   position: absolute;
   width: 100%;
@@ -11339,11 +11340,11 @@ span.ttl {
 
 .stat-box {
   background: #fff none repeat scroll 0 0;
-  border: 1px solid #ede9e9;
-  border-radius: 4px;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
   display: inline-block;
   margin-bottom: 25px;
-  padding: 25px 20px 15px;
+  padding: 10px;
   width: 100%;
 }
 
@@ -16549,7 +16550,7 @@ a.circle-btn:hover {
 
 .classic-post > figure > span,
 .image-bunch > span {
-  background: #7750f8;
+  background: #02c1f3;
   border-radius: 2px;
   color: #fff;
   font-size: 11px;
@@ -24503,7 +24504,7 @@ h5.filter-title {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
-  background-color: #06063b;
+  background-color: #4565a6;
   overflow: hidden;
 }
 
@@ -24584,7 +24585,7 @@ h5.filter-title {
 }
 
 .nave-area-carousel .item .active {
-  color:#fffa0e !important;
+  color: #fffa0e !important;
   font-weight: bold;
   /* border-bottom: 10px solid #fff;
   border-left: 10px solid transparent;

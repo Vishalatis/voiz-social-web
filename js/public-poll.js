@@ -1,22 +1,22 @@
 // Array of polls
 let polls = [
   {
-    question: "Which political party is most popular?",
-    answers: ["Congress", "BJP", "Bahujan Samaj Party", "Aam Aadmi Party"],
+    question: "Do you like Travel?",
+    answers: ["Yes", "No"],
     pollcount: 100,
-    answerweight: [60, 10, 20, 10],
+    answerweight: [60, 40],
     selectanswer: -1,
   },
   {
-    question: "Which is your favorite programming language?",
-    answers: ["JavaScript", "Python", "C++", "Java"],
+    question: "Do you like Coding?",
+    answers: ["Yes", "No"],
     pollcount: 50,
     answerweight: [20, 15, 5, 10],
     selectanswer: -1,
   },
   {
-    question: "Which is the best streaming platform?",
-    answers: ["Netflix", "Amazon Prime", "Disney+", "Hulu"],
+    question: "Do you like Web Design?",
+    answers: ["Yes", "No"],
     pollcount: 80,
     answerweight: [30, 20, 20, 10],
     selectanswer: -1,
@@ -40,12 +40,12 @@ function renderPoll(index) {
   polldom.answers.innerHTML = poll.answers
     .map(function (answer, i) {
       return `
-        <div class="answer" onclick="markanswer(${index}, ${i})">
-        ${answer}
-        <span class="percentage_bar"></span>
-        <span class="percentage_value"></span>
-        </div>
-      `;
+          <div class="answer" onclick="markanswer(${index}, ${i})">
+          ${answer}
+          <span class="percentage_bar"></span>
+          <span class="percentage_value"></span>
+          </div>
+        `;
     })
     .join("");
 }

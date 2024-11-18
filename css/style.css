@@ -24518,13 +24518,13 @@ h5.filter-title {
   width: 50px;
   margin: 0 5px;
   padding: 20px;
-  color: #6ba7a8;
+  color: #fff;
   text-decoration: none;
   transition: 0.3s;
 }
 
 .mobile-bottom-nav-nav-item.is-active {
-  color: #fff;
+  color: #fffa0e !important;
 }
 
 .mobile-bottom-nav-nav-item.is-active::before {

@@ -1622,13 +1622,13 @@ ul.naves > li svg {
   border-bottom: 1px solid #e6ecf5;
   display: block;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 15px;
   margin-bottom: 20px;
   padding-bottom: 12px;
   text-transform: capitalize;
   width: 100%;
-  color: #000;
+  color: #1e293b;
   position: relative;
   font-family: "IBM Plex Sans", sans-serif;
 }
@@ -24697,8 +24697,7 @@ h5.filter-title {
   transition: width 200ms ease-in-out;
 }
 
-
-.voters_chart{
+.voters_chart {
   width: 600px !important;
   height: 350px !important;
-  }
+}

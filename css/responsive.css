@@ -1959,6 +1959,14 @@
 }
 
 @media screen and (max-width: 480px) {
+  .in_depth_case_tab {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    text-wrap: nowrap;
+    overflow-y: hidden;
+    height: 50px;
+  }
   .voters_chart {
     width: 350px !important;
     height: 350px !important;

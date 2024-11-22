@@ -551,7 +551,7 @@ ul.owl-carousel {
 .owl-next::before {
   /* background: #fff; */
   border-radius: 50%;
-  color: #fff;
+  color: #000;
   content: "\f0d9";
   display: inline-block;
   font-family: fontawesome;
@@ -689,7 +689,8 @@ header.sticky {
 
 .topbar {
   /* background: linear-gradient(to right, #b0ceff, #071c5d); */
-  background: #e2e8f0;
+  background: #70a1ab;
+
   display: block;
   height: 55px;
   padding: 0 15px;
@@ -782,7 +783,7 @@ header.sticky {
 }
 
 .user-img > h5 {
-  color: #272266;
+  color: #fff;
   display: inline-block;
   font-size: 13px;
   margin: 0;
@@ -1420,6 +1421,9 @@ header.sticky {
   margin-bottom: 0;
   padding: 0 20px 20px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .sidebar .widget-title {
@@ -2065,6 +2069,11 @@ a.learnmore:hover {
 
 .description > p {
   margin-bottom: 20px;
+  color: #1e293b;
+}
+.description > p > span {
+  color: #000 !important;
+  font-weight: bold !important;
 }
 
 .description > span {
@@ -2224,6 +2233,7 @@ a.learnmore:hover {
 .rate-n-apply .main-btn {
   float: right;
   padding: 6px 15px;
+  background: #70A1AB;
 }
 
 .job-price > span {
@@ -4894,7 +4904,7 @@ canvas {
 
 .mh-head {
   /* background: linear-gradient(to right, #b0ceff, #071c5d) !important; */
-  background: #e2e8f0 !important;
+  background: #70a1ab !important;
   color: #fff;
   height: auto;
 }
@@ -6248,7 +6258,7 @@ a.addnewforum {
   margin-top: 20px;
   padding: 10px 10px;
   width: 100%;
-  background: #02c1f3;
+  background: #257180;
 }
 
 .singin form .checkbox {
@@ -6550,7 +6560,7 @@ a.addnewforum {
 }
 
 .employer-info > h2 > span {
-  background: #7750f8;
+  background: #70A1AB;
   border-radius: 3px;
   color: #fff;
   display: inline-block;
@@ -7161,7 +7171,7 @@ a.addnewforum {
 }
 
 .add-tofrndlist > a {
-  background: #02c1f3 none repeat scroll 0 0;
+  background: #257180 none repeat scroll 0 0;
 }
 
 .add-remove-frnd > li {
@@ -8216,7 +8226,7 @@ input[type="checkbox"]:checked + label {
 }
 
 .title-block h5 > span {
-  background: #02c1f3 none repeat scroll 0 0;
+  background: #257180 none repeat scroll 0 0;
   border-radius: 100%;
   color: #fff;
   font-size: 12px;
@@ -11026,7 +11036,7 @@ svg #shadow_1_ {
 .search-tab .nav-tabs .nav-item > a.active::before {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid black;
+  border-top: 10px solid #cb6040;
   bottom: -9px;
   content: "";
   height: 2px;
@@ -12746,7 +12756,7 @@ aside .widget.pitnik-links > ul > li > a {
 }
 
 .job .friend-name > span {
-  float: right;
+  float: left;
   width: auto;
 }
 
@@ -12837,8 +12847,8 @@ aside .widget.pitnik-links > ul > li > a {
 }
 
 .job .description > p {
-  color: #656a85;
-  font-size: 14px;
+  /* color: #656a85;
+  font-size: 14px; */
   line-height: 21px;
 }
 
@@ -12908,6 +12918,7 @@ aside .widget.pitnik-links > ul > li > a {
   margin-left: 0;
   padding: 15px 10px;
   width: 100%;
+  background: #70A1AB;
 }
 
 /*--- user feature info box ---*/
@@ -16546,11 +16557,15 @@ a.circle-btn:hover {
   margin-bottom: 0;
   position: relative;
   vertical-align: top;
+  border-radius: 20px;
+}
+.classic-post > figure  img{
+  border-radius: 20px;
 }
 
 .classic-post > figure > span,
 .image-bunch > span {
-  background: #02c1f3;
+  background: #70a1ab;
   border-radius: 2px;
   color: #fff;
   font-size: 11px;
@@ -16614,6 +16629,7 @@ a.circle-btn:hover {
 .location-area .main-btn {
   float: right;
   padding: 5px 10px;
+  background: #70a1ab;
 }
 
 .classic-post > figure > span.yellow,
@@ -24504,7 +24520,7 @@ h5.filter-title {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
-  background-color: #4565a6;
+  background-color: #70a1ab;
   overflow: hidden;
 }
 
@@ -24524,7 +24540,7 @@ h5.filter-title {
 }
 
 .mobile-bottom-nav-nav-item.is-active {
-  color: #fffa0e !important;
+  color: #ffff00 !important;
 }
 
 .mobile-bottom-nav-nav-item.is-active::before {
@@ -24580,12 +24596,13 @@ h5.filter-title {
   justify-content: center;
   padding: 10px;
   text-decoration: none;
-  color: #fff;
+  color: #161616;
+  font-weight: 500;
   /* position: relative; */
 }
 
 .nave-area-carousel .item .active {
-  color: #fffa0e !important;
+  color: #cb6040 !important;
   font-weight: bold;
   /* border-bottom: 10px solid #fff;
   border-left: 10px solid transparent;

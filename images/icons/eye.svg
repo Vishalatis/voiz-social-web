@@ -1,16 +1,16 @@
-<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_6641_705)">
-<g clip-path="url(#clip1_6641_705)">
-<path d="M1.74609 12.9624C1.74609 12.9624 5.74609 4.9624 12.7461 4.9624C19.7461 4.9624 23.7461 12.9624 23.7461 12.9624C23.7461 12.9624 19.7461 20.9624 12.7461 20.9624C5.74609 20.9624 1.74609 12.9624 1.74609 12.9624Z" stroke="#272266" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.7461 15.9624C14.4029 15.9624 15.7461 14.6193 15.7461 12.9624C15.7461 11.3055 14.4029 9.9624 12.7461 9.9624C11.0892 9.9624 9.74609 11.3055 9.74609 12.9624C9.74609 14.6193 11.0892 15.9624 12.7461 15.9624Z" stroke="#272266" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6772_13271)">
+<g clip-path="url(#clip1_6772_13271)">
+<path d="M1.24609 12.9624C1.24609 12.9624 5.24609 4.9624 12.2461 4.9624C19.2461 4.9624 23.2461 12.9624 23.2461 12.9624C23.2461 12.9624 19.2461 20.9624 12.2461 20.9624C5.24609 20.9624 1.24609 12.9624 1.24609 12.9624Z" stroke="#CB6040" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.2461 15.9624C13.9029 15.9624 15.2461 14.6193 15.2461 12.9624C15.2461 11.3055 13.9029 9.9624 12.2461 9.9624C10.5892 9.9624 9.24609 11.3055 9.24609 12.9624C9.24609 14.6193 10.5892 15.9624 12.2461 15.9624Z" stroke="#CB6040" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <defs>
-<clipPath id="clip0_6641_705">
-<rect width="24" height="24" fill="white" transform="translate(0.5)"/>
+<clipPath id="clip0_6772_13271">
+<rect width="24" height="24" fill="white"/>
 </clipPath>
-<clipPath id="clip1_6641_705">
-<rect width="24" height="24" fill="white" transform="translate(0.746094 0.962402)"/>
+<clipPath id="clip1_6772_13271">
+<rect width="24" height="24" fill="white" transform="translate(0.246094 0.962402)"/>
 </clipPath>
 </defs>
 </svg>

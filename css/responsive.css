@@ -2049,7 +2049,7 @@
   .pit-frnz-meta,
   .pit-groups-meta,
   .pit-pages-meta {
-    width: 88%;
+    width: 100%;
   }
   .d-flex {
     display: inline-block !important;
@@ -2285,7 +2285,7 @@
   }
   .classic-post > figure,
   .classic-post > figure img {
-    width: 100%;
+    width: auto;
   }
   .classic-pst-meta {
     margin-top: 20px;

@@ -2233,7 +2233,7 @@ a.learnmore:hover {
 .rate-n-apply .main-btn {
   float: right;
   padding: 6px 15px;
-  background: #70A1AB;
+  background: #70a1ab;
 }
 
 .job-price > span {
@@ -6560,7 +6560,7 @@ a.addnewforum {
 }
 
 .employer-info > h2 > span {
-  background: #70A1AB;
+  background: #70a1ab;
   border-radius: 3px;
   color: #fff;
   display: inline-block;
@@ -7577,7 +7577,7 @@ a.addnewforum {
   text-align: center;
   width: 100%;
   color: #fff;
-  top: 50px;
+  top: 2px;
   border-radius: 20px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -7772,7 +7772,7 @@ a.with-smedia {
 }
 
 .big-ad > figure {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .big-ad > h1 {
@@ -12918,7 +12918,7 @@ aside .widget.pitnik-links > ul > li > a {
   margin-left: 0;
   padding: 15px 10px;
   width: 100%;
-  background: #70A1AB;
+  background: #70a1ab;
 }
 
 /*--- user feature info box ---*/
@@ -16559,7 +16559,7 @@ a.circle-btn:hover {
   vertical-align: top;
   border-radius: 20px;
 }
-.classic-post > figure  img{
+.classic-post > figure img {
   border-radius: 20px;
 }
 
@@ -24717,4 +24717,44 @@ h5.filter-title {
 .voters_chart {
   width: 600px !important;
   height: 350px !important;
+}
+
+.post-meta > figure > a > img {
+  object-fit: cover !important;
+}
+
+
+
+.image-preview {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #f8f8f8;
+}
+
+.image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.remove-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
 }

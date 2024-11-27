@@ -1190,7 +1190,7 @@
   }
   .we-login-register {
     margin-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 40px;
   }
   .app-download {
     width: 78%;
@@ -2136,7 +2136,7 @@
     text-align: center;
   }
   .gap.signin .bg-image {
-    height: 100vh;
+    height: 100vh !important;
   }
   .gap.signin::before {
     height: 100%;
